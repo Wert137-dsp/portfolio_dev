@@ -1,17 +1,17 @@
 #intro {
     background-image: url("../assets/images/Background_Intro.png");
-    background-repeat: no-repeat;
+    
     background-size: cover;
     align-items: center;
     width:100%;
-    padding-block: 100px 183px;
-    position: relative;
+    padding-block: 100px 0px;
+    
 
     #info {
 
         
         align-items: center;
-    
+       
 
         header {
 
@@ -61,7 +61,7 @@
         #tags{
 
             gap:16px;
-
+           
             .tag {
                 display: flex;
                 flex-direction: row;
@@ -78,11 +78,12 @@
         }
     }
 
-  #caretDown img {
+    #caretDown  img {
 
-   
-    margin-block: 94px 57px;
-  }
+        margin-block: 94px 57px;
+    }
+
+  
 
 }
 
