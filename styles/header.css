@@ -2,9 +2,9 @@
     background-image: url("../assets/images/Background_Intro.png");
     background-repeat: no-repeat;
     background-size: cover;
-  
+    align-items: center;
     width:100%;
-    padding-block: 120px 183px;
+    padding-block: 100px 183px;
     position: relative;
 
     #info {
@@ -77,6 +77,12 @@
             }
         }
     }
+
+  #caretDown img {
+
+   
+    margin-block: 94px 57px;
+  }
 
 }
 
