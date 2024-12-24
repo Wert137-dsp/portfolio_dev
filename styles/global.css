@@ -24,9 +24,9 @@
     --color-gray-600: #E2E4E9;
 
     --font-family1: "Asap", sans-serif;
-    --title-lg: 800 56px/120% var(--font-family);
-    --title-lg: 800 24px/120% var(--font-family);
-    --title-lg: 800 16px/120% var(--font-family);
+    --title-lg: 800 56px/120% var(--font-family1);
+    --title-md: 800 24px/120% var(--font-family1);
+    --title-sm: 800 16px/120% var(--font-family1);
 
     --font-family2: "Inconsolata", sans-serif;
     --subtitle: 400 20px/120% var(--font-family2);
@@ -39,5 +39,6 @@
 
 .container {
 
-    width: 1040px;
+    max-width: 1040px;
+    margin-inline: auto;
 }
