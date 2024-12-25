@@ -1,0 +1,45 @@
+footer {
+
+    background-image: url("../assets/images/Background_Contacts.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-block: 128px 200px;
+    #contact {
+
+        border: 1px solid green;
+        align-items: center;
+        gap:48px;
+        header {
+            align-items: center;
+
+            h5 {
+
+                color: var(--color-purple);
+            }
+
+            h2 {
+
+                color:var(--color-gray-600);
+            }
+
+            p {
+
+                color:var(--color-gray-600);
+            }
+        }
+
+        #links {
+
+            gap:16px;
+
+            .social-button {
+                border-radius: 8px;
+                background-color: var(--color-gray-300);
+                width: 400px;
+                height: 68px;
+            }
+        }
+
+    }
+}
