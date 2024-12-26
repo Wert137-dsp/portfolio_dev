@@ -33,11 +33,66 @@ footer {
 
             gap:16px;
 
+            #social-linkedim {
+                
+                .img-logo {
+
+                    background-image: url("../assets/icons/LinkedinLogo.svg");
+                }
+
+            }
+
+            #social-instagram {
+                
+                .img-logo {
+
+                    background-image: url("../assets/icons/InstagramLogo.svg");
+                }
+
+            }
+
+            #social-github {
+                
+                .img-logo {
+
+                    background-image: url("../assets/icons/GithubLogo.svg");
+                }
+
+            }
+
+            #social-email {
+                
+                .img-logo {
+
+                    background-image: url("../assets/icons/GithubLogo.svg");
+                }
+
+            }
+
+
+
             .social-button {
                 border-radius: 8px;
                 background-color: var(--color-gray-300);
                 width: 400px;
                 height: 68px;
+                align-items: center;
+                justify-content: space-between;
+                padding:20px;
+
+                .rede-social {
+
+                    align-items: center;
+                    gap:20px;
+
+                    .img-logo {
+
+                        width: 32px;
+                        height: 32px;
+                        
+                    }
+                    
+                }
             }
         }
 
