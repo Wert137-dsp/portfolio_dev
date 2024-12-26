@@ -41,6 +41,11 @@ footer {
 
             }
 
+            div:hover {
+
+                border:1px solid var(--color-blue);
+            }
+
             #social-instagram {
                 
                 .img-logo {
@@ -63,7 +68,7 @@ footer {
                 
                 .img-logo {
 
-                    background-image: url("../assets/icons/GithubLogo.svg");
+                    background-image: url("../assets/icons/EnvelopeSimple.svg");
                 }
 
             }
